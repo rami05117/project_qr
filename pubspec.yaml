@@ -1,0 +1,27 @@
+name: project_myapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ar_flutter_plugin: ^0.7.3
+  mobile_scanner: ^5.1.0
+  path_provider: ^2.0.13
+  dio: ^5.0.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets : 
+    - assets/kelvin.glb
+  uses-material-design: true
